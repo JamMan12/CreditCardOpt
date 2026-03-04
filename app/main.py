@@ -6,6 +6,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 
+import streamlit as st
 import pandas as pd
 from src.models.schemas import UserPreferences, CategorySpend
 from src.data.loader import ALL_CARDS, POINT_VALUATIONS
