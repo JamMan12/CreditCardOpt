@@ -1,0 +1,12 @@
+{
+  "include": [
+    "src",
+    "tests"
+  ],
+  "extraPaths": [
+    "c:\\Users\\Jabba\\CreditCardOpt"
+  ],
+  "venvPath": "c:\\Users\\Jabba\\CreditCardOpt",
+  "venv": "venv",
+  "pythonVersion": "3.12"
+}
