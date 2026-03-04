@@ -1,4 +1,11 @@
-import streamlit as st
+import sys
+from pathlib import Path
+
+# Ensure the project root is on the path so `src` is importable
+# when Streamlit runs this file directly from the app/ directory.
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+
 import pandas as pd
 from src.models.schemas import UserPreferences, CategorySpend
 from src.data.loader import ALL_CARDS, POINT_VALUATIONS
